@@ -1,11 +1,11 @@
 import { RxDashboard } from "react-icons/rx";
-import { HiOutlineClipboardCheck } from "react-icons/Hi";
 import { BsBagCheck } from "react-icons/Bs";
 import { RxEnvelopeClosed } from "react-icons/rx";
 import { BsWallet2 } from "react-icons/Bs";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosHelpCircleOutline } from "react-icons/Io";
 import { BsClipboardCheck } from "react-icons/Bs";
+import { MdDateRange } from "react-icons/Md";
 import "./SideBar.css";
 
 function SideBar() {
@@ -18,11 +18,11 @@ function SideBar() {
           <p>Dashboard</p>
         </div>
         <div className="side-bar-content">
-          <HiOutlineClipboardCheck className="icon" />
+          <BsClipboardCheck className="icon" />
           <p>Lab Test</p>
         </div>
         <div className="side-bar-content">
-          <BsClipboardCheck className="icon" />
+          <MdDateRange className="icon" />
           <p>Appointment</p>
         </div>
         <div className="side-bar-content">
